@@ -2,11 +2,13 @@
 
 ```sh
 # On all nodes
+chmod +x cluster-setup.sh
 ./cluster-setup.sh
 ```
 
 ```sh
 # On all nodes
+chmod +x kubernetes-setup.sh
 ./kubernetes-setup.sh
 ```
 
