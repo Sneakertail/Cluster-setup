@@ -15,6 +15,12 @@ chmod +x kubernetes-setup.sh
 ```sh
 # On master node
 sudo kubeadm init
+
+# if not working
+systemctl stop unattended-upgrades
+dpkg --configure -a
+apt update
+# do init again
 ```
 
 ```sh
