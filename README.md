@@ -61,3 +61,10 @@ kubectl get nodes
 # Verify the cluster status by executing kubectl command on the master node
 kubectl get nodes
 ```
+
+```sh
+root@ip-172-31-0-49:/home/ubuntu/Cluster-setup# kubectl create ns dev
+namespace/dev created
+root@ip-172-31-0-49:/home/ubuntu/Cluster-setup# kubectl create ns prod
+namespace/prod created
+```
