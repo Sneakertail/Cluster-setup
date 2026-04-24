@@ -1,4 +1,4 @@
-{#!/bin/bash
+#!/bin/bash
 # This script sets up a Kubernetes environment on Ubuntu
 # Fixed to install Kubernetes version v1.34
 
@@ -65,4 +65,3 @@ echo -e "\e[1;34m*  Kubernetes v1.34 setup completed!  *\e[0m"
 echo -e "\e[1;34m*****************************************\e[0m"
 
 exit
-}
