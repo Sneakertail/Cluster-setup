@@ -1,4 +1,4 @@
-{#!/bin/bash
+#!/bin/bash
 # This script sets up the container runtime on a Linux machine,
 # with specific support for both AMD64 and ARM64 architectures.
 # The script also installs the latest versions of containerd and runc.
